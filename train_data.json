@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Привет",
+                "Здравствуй",
+                "Здравствуйте",
+                "Добрый день",
+                "Доброе утро",
+                "Добрый вечер",
+                "Доброго времени суток",
+                "Приветствую",
+                "Салют",
+                "Приветик",
+                "Моё почтение",
+                "Позвольте вас приветствовать",
+                "Разрешите вас приветствовать",
+                "Здорово",
+                "Пис",
+                "Хай",
+                "Хаюшки",
+                "Привки",
+                "Респект",
+                "Привет, Бро!",
+                "Как дела?",
+                "Как жизнь"
+            ],
+            "responses": [
+                "Здравствуйте",
+                "Приветствую, Вас",
+                "Доброго времени суток!",
+                "Чем могу быть полезен?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "До свидания",
+                "Пока",
+                "До встречи",
+                "До скорого",
+                "Счастливо",
+                "Всё",
+                "Бай",
+                "Бывай"
+            ],
+            "responses": [
+                "До свидания, спасибо за обращение!",
+                "Хорошего дня!",
+                "До свидания, был рад помочь!",
+                "Пока, был рад помочь!",
+                "Пока, жду в гости снова!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Спасибо", "Спасибо тебе", "Благодарю", "Огромное спасибо"],
+            "responses": [
+                "Пожалуйста",
+                "Рад был помочь",
+                "Обращайтесь",
+                "Да не за что"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Что умеешь?",
+                "Расскажи что умеешь?",
+                "Какие функции?",
+                "Какие функции у тебя есть?",
+                "Умения",
+                "Навыки"
+            ],
+            "responses": [
+                "Я умею: здороваться,\n прощаться,\n благодарить,\n говорить текущее время,\n сообщать текущую погоду в Новосибирске,\n могу порекомендовать ресурсы по программированию или машинному обучению"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "Который час",
+                "Часов",
+                "Время",
+                "Сколько сейчас времени",
+                "Времени"
+            ],
+            "responses": ["command_time"]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "С погодой?",
+                "Какая температура на улице?",
+                "Снаружи?",
+                "Погоду",
+                "На улице",
+                "Снаружи",
+                "Погода"
+            ],
+            "responses": ["command_weather"]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "Программирование",
+                "Программирования",
+                "Программированию",
+                "Программированием",
+                "О программировании"
+            ],
+            "responses": [
+                "Codecademy",
+                "FreeCodeCamp",
+                "Coursera",
+                "Codewars",
+                "Code Avengers",
+                "Codebabes",
+                "Mozilla Developer Network",
+                "Code4Startup",
+                "edX",
+                "MIT OpenCourseware",
+                "AGupieWare",
+                "Hack.pledge",
+                "Web.Dev.Live",
+                "BitDegree",
+                "Dash General Assembly",
+                "The Odin Project",
+                "W3Schools",
+                "Hackr.io",
+                "Bento.io",
+                "Solo Learn",
+                "Upskill",
+                "Codeasy.net",
+                "Edabit",
+                "GITHUB",
+                "David Walsh Blog",
+                "Coderbyte",
+                "Microsoft Virtual Academy",
+                "LearnCode. Academy",
+                "Thenewboston",
+                "Programming Knowledge",
+                "Softwarehow"
+            ]
+        },
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "Машинное обучение",
+                "Машинного обучения",
+                "Машинному обучению",
+                "Машинным обучением",
+                "О машинном обучении",
+                "ml",
+                "ML"
+            ],
+            "responses": [
+                "https://www.oreilly.com/ideas/what-is-data-science",
+                "https://www.quora.com/Data-Science/What-is-data-science",
+                "https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century",
+                "https://github.com/academic/awesome-datascience#algorithms",
+                "https://github.com/academic/awesome-datascience#tutorials",
+                "https://www.datacamp.com/tracks/data-scientist-with-python",
+                "https://github.com/academic/awesome-datascience#tutorials"
+            ]
+        }
+    ]
+}
